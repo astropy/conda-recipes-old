@@ -1,0 +1,10 @@
+package:
+    name: python
+    version: "3.2.5"
+
+source:
+    fn: Python-3.2.5.tar.bz2
+    url: https://www.python.org/ftp/python/3.2.5/Python-3.2.5.tar.bz2
+
+build:
+    number: 0

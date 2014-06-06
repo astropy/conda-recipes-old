@@ -1,0 +1,21 @@
+package:
+    name: scipy
+    version: "0.14.0"
+
+source:
+    fn: scipy-0.14.0.tar.gz
+    url: http://downloads.sourceforge.net/project/scipy/scipy/0.14.0/scipy-0.14.0.tar.gz
+
+build:
+    number: 0
+
+requirements:
+    build:
+        - python
+        - setuptools
+        - numpy
+    run:
+        - python
+        - numpy
+
+

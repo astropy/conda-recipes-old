@@ -1,0 +1,15 @@
+package:
+    name: setuptools
+    version: "1.2.3"
+
+# no source section -- instead ez_setup.py is downloaded in the build
+
+build:
+    number: 0
+
+requirements:
+    build:
+        - python
+    run:
+        - python
+
