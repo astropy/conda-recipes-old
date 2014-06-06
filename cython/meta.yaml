@@ -1,0 +1,18 @@
+package:
+    name: cython
+    version: "0.2.1"
+
+source:
+    fn: Cython-0.20.1.tar.gz
+    url: http://cython.org/release/Cython-0.20.1.tar.gz
+
+build:
+    number: 0
+
+requirements:
+    build:
+        - python
+        - setuptools
+    run:
+        - python
+
