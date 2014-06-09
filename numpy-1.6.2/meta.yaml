@@ -1,0 +1,18 @@
+package:
+    name: numpy
+    version: "1.6.2"
+
+source:
+    fn: numpy-1.6.2.tar.gz
+    url: http://downloads.sourceforge.net/project/numpy/NumPy/1.6.2/numpy-1.6.2.tar.gz
+
+build:
+    number: 0
+
+requirements:
+    build:
+        - python
+        - setuptools
+    run:
+        - python
+
