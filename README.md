@@ -1,3 +1,16 @@
+About
+-----
+
+This repository contains recipes for building various packages needed for Astropy continuous integration and affiliated packages. It is needed because ``conda`` cannot install all required versions. For example, we need to build the Python 3.2 packages because these are not available by default.
+
+The packages are uploaded to http://binstar.org, and can be seen at https://binstar.org/astropy-ci-extras.
+
+To make use of these packages, you then need to make use of the ``astropy-ci-extras`` channel when using ``conda``:
+
+```
+conda install -c astropy-ci-extras ...
+```
+
 Setup
 -----
 
