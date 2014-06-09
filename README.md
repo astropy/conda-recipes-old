@@ -42,6 +42,7 @@ CONDA_PY=32 conda build numpy-1.6.2
 
 # for the sake of this example, suppose this was numpy 1.6.1 you just built
 CONDA_PY=32 CONDA_NPY=16 conda build scipy
+```
 
 Uploading
 =========
