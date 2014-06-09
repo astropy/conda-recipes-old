@@ -1,5 +1,5 @@
 Setup
-=====
+-----
 
 The first time you want to build binaries, you will need to do the following:
 
@@ -21,7 +21,7 @@ conda install binstar
 ```
 
 Building
-========
+--------
 
 To build binary packages:
 
@@ -45,7 +45,7 @@ CONDA_PY=32 CONDA_NPY=16 conda build scipy
 ```
 
 Uploading
-=========
+---------
 
 To upload manually:
 
