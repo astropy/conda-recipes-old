@@ -20,13 +20,14 @@ The first time you want to build binaries, you will need to do the following:
 # You need libbz2 to get bz2 support in python
 sudo apt-get install libbz2-dev
 
-# install miniconda
+# Install miniconda
 wget http://repo.continuum.io/miniconda/Miniconda-latest-Linux-x86_64.sh -O miniconda.sh
 chmod +x miniconda.sh
 ./miniconda.sh -b
 export PATH=$HOME/miniconda/bin:$PATH
 conda update --yes conda
-# get the build system
+
+# Install the conda build system
 conda install --yes conda-build
 
 # Install binstar
