@@ -6,5 +6,5 @@
 #
 # could also be fixed by adding a configuration item to the
 # ah_bootstrap section, I suppose...
-$PYTHON setup.py install --offline
+$PYTHON setup.py install --offline --no-git
 
