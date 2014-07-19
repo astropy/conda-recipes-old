@@ -18,5 +18,4 @@ CONDA_PY=32 CONDA_NPY=18 conda build $astropy_version
 CONDA_PY=32 CONDA_NPY=16 conda build $astropy_version
 CONDA_PY=27 CONDA_NPY=16 conda build $astropy_version
 CONDA_PY=27 CONDA_NPY=15 conda build $astropy_version
-
-
+CONDA_PY=27 CONDA_NPY=17 conda build $astropy_version
